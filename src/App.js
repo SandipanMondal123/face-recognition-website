@@ -24,10 +24,27 @@ class App extends Component {
       imageUrl: '',
       box: {},
       route: 'Signin',
-      isSignedin: false
+      isSignedin: false,
+      user:{
+        id: '',
+        name: '',
+        email: '',
+        entries: 0,
+        joined: ''
+      }
     }
   }
 
+  loadUser = (data) => {
+    this.setState({data: {
+        id: data.id,
+        name: data.name,
+        email: data.name,
+        entries: data.entries,
+        joined: data.joined
+    }})
+  }
+  
   calculatFaceLocation = (data) => {
     const clarifaiFace = data.outputs[0].data.regions[0].region_info.bounding_box;
     const image = document.getElementById('inputImage');
@@ -82,7 +99,7 @@ class App extends Component {
              route === 'Signin' ?
 
                 <Signin onRouteChange={this.onRouteChange} />
-                : <Register onRouteChange={this.onRouteChange} />
+                : <Register loadUser = {this.loadUser} onRouteChange={this.onRouteChange} />
 
 
             )
