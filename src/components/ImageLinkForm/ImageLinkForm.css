@@ -1,0 +1,30 @@
+.form{
+    width:700px;
+    background: linear-gradient(to right, rgb(149, 174, 97), rgb(167, 138, 193));
+   
+}
+
+.container {
+    backdrop-filter: blur(100px);
+  }
+  
+
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .container {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+    }
+  }
+
+  #detect{
+    background-color:#023047;
+    color:#edf2f4;
+    font-weight:700;
+
+  }
+  #detect:hover{
+    background-color:#edf2f4;
+    color:#023047;
+    font-weight:700;
+    border-color:#edf2f4 ;
+  }
