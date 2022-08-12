@@ -1,6 +1,6 @@
-cd into the project
-npm install
-npm start
+1. cd into the project
+2. npm install
+3. npm start
 
 This is the front-end component which utilized ReactJS/HTML/CSS and deployed on Heroku. If you want to see the backend, check out this link https://github.com/SandipanMondal123/face-recognition-website-api .
 
