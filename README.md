@@ -1,4 +1,4 @@
-# face-recognition-website
+# face-recognition-website: Frontend component
 
 1. cd into the project
 2. npm install
