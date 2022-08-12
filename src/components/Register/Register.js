@@ -24,6 +24,9 @@ class Register extends React.Component {
 
 
     onSubmitSignIn = () => {
+        if(!this.state.email || !this.state.password || !this.state.name){
+            return;
+        }
         fetch("http://localhost:3000/register", {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
