@@ -1,4 +1,4 @@
-#face-recognition-website
+# face-recognition-website
 
 1. cd into the project
 2. npm install
