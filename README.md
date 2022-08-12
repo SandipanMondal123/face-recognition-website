@@ -6,6 +6,8 @@ This is the front-end component which utilized ReactJS/HTML/CSS and deployed on 
 
 Demo: https://face-recognition-website-sm.herokuapp.com/
 
+![Screen Shot 2022-08-12 at 2 17 56 PM](https://user-images.githubusercontent.com/89411519/184419836-41d1a3ed-9740-4e99-a7d4-4cbca5ba9950.png)
+
 
 # Getting Started with Create React App
 
