@@ -2,7 +2,7 @@
 2. npm install
 3. npm start
 
-This is the front-end component which utilized **ReactJS/HTML/CSS (with Tachyons) ** and deployed on **Heroku**. If you want to see the backend, check out this link https://github.com/SandipanMondal123/face-recognition-website-api .
+This is the front-end component which utilized **ReactJS/HTML/CSS (with Tachyons)** and deployed on **Heroku**. If you want to see the backend, check out this link https://github.com/SandipanMondal123/face-recognition-website-api .
 
 Demo: https://face-recognition-website-sm.herokuapp.com/
 
