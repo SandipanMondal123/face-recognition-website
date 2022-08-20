@@ -8,6 +8,8 @@ Welcome to my **Full Stack Project** and particularly to the **front-end** compo
 
 This particular component used utilized **ReactJS/HTML/CSS (with Tachyons)** and deployed on **Heroku**. If you want to see the backend, check out this link https://github.com/SandipanMondal123/face-recognition-website-api .
 
+This is one of the Capstone Projects from ZTM Academy.
+
 Demo: https://face-recognition-website-sm.herokuapp.com/
 
 ![Screen Shot 2022-08-12 at 2 23 43 PM](https://user-images.githubusercontent.com/89411519/184420643-6435216b-db6e-41a3-93a7-72193be61359.png)
